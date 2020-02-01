@@ -1,0 +1,58 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Fri May 24 16:10:21 2019
+# Process ID: 7728
+# Current directory: D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/Ui_ROM_synth_1
+# Command line: vivado.exe -log Ui_ROM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Ui_ROM.tcl
+# Log file: D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/Ui_ROM_synth_1/Ui_ROM.vds
+# Journal file: D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/Ui_ROM_synth_1\vivado.jou
+#-----------------------------------------------------------
+source Ui_ROM.tcl -notrace
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 364.098 ; gain = 153.781
+INFO: [Synth 8-638] synthesizing module 'Ui_ROM' [d:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/ip/Ui_ROM/synth/Ui_ROM.vhd:67]
+INFO: [Synth 8-256] done synthesizing module 'Ui_ROM' (4#1) [d:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/ip/Ui_ROM/synth/Ui_ROM.vhd:67]
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 405.848 ; gain = 195.531
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 405.848 ; gain = 195.531
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 769.203 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 769.203 ; gain = 558.887
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 769.203 ; gain = 558.887
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 769.203 ; gain = 558.887
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 769.203 ; gain = 558.887
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 769.203 ; gain = 558.887
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++---------------------+------------------------------------------------------+---------------+----------------+
+|Module Name          | RTL Object                                           | Depth x Width | Implemented As | 
++---------------------+------------------------------------------------------+---------------+----------------+
+|rom                  | rom[63]                                              | 64x32         | LUT            | 
+|dist_mem_gen_v8_0_11 | synth_options.dist_mem_inst/gen_rom.rom_inst/rom[63] | 64x32         | LUT            | 
++---------------------+------------------------------------------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:42 ; elapsed = 00:00:45 . Memory (MB): peak = 769.203 ; gain = 558.887
+Finished Timing Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:00:45 . Memory (MB): peak = 769.203 ; gain = 558.887
+Finished Technology Mapping : Time (s): cpu = 00:00:42 ; elapsed = 00:00:45 . Memory (MB): peak = 769.203 ; gain = 558.887
+Finished IO Insertion : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 769.203 ; gain = 558.887
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 769.203 ; gain = 558.887
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 769.203 ; gain = 558.887
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 769.203 ; gain = 558.887
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 769.203 ; gain = 558.887
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 769.203 ; gain = 558.887
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT6 |    24|
+|2     |FDRE |     6|
++------+-----+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 769.203 ; gain = 558.887
+synth_design: Time (s): cpu = 00:00:41 ; elapsed = 00:00:43 . Memory (MB): peak = 804.063 ; gain = 542.633

@@ -1,0 +1,4 @@
+-makelib ies/xil_defaultlib \
+  "../../../../phase2.srcs/sources_1/ip/Bi_ROM/Bi_ROM_sim_netlist.vhdl" \
+-endlib
+

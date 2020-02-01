@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+# IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+# Start of session at: Fri May 24 16:12:43 2019
+# Process ID: 8672
+# Current directory: D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/Uo_ROM_synth_1
+# Command line: vivado.exe -log Uo_ROM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Uo_ROM.tcl
+# Log file: D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/Uo_ROM_synth_1/Uo_ROM.vds
+# Journal file: D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/Uo_ROM_synth_1\vivado.jou
+#-----------------------------------------------------------
+source Uo_ROM.tcl -notrace

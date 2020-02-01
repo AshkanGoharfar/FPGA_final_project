@@ -1,0 +1,24 @@
+# compile vhdl design source files
+vhdl2008 xil_defaultlib  "../../../phase2.srcs/sources_1/new/neurals_utils_pkg.vhd"
+vhdl xil_defaultlib  "../../../phase2.srcs/sources_1/ip/Wo_ROM/Wo_ROM_sim_netlist.vhdl"
+vhdl xil_defaultlib  "../../../phase2.srcs/sources_1/ip/Wi_ROM/Wi_ROM_sim_netlist.vhdl"
+vhdl xil_defaultlib  "../../../phase2.srcs/sources_1/ip/Wf_ROM/Wf_ROM_sim_netlist.vhdl"
+vhdl xil_defaultlib  "../../../phase2.srcs/sources_1/ip/Wc_ROM/Wc_ROM_sim_netlist.vhdl"
+vhdl xil_defaultlib  "../../../phase2.srcs/sources_1/ip/Uo_ROM/Uo_ROM_sim_netlist.vhdl"
+vhdl xil_defaultlib  "../../../phase2.srcs/sources_1/ip/Ui_ROM/Ui_ROM_sim_netlist.vhdl"
+vhdl xil_defaultlib  "../../../phase2.srcs/sources_1/ip/Uf_ROM/Uf_ROM_sim_netlist.vhdl"
+vhdl xil_defaultlib  "../../../phase2.srcs/sources_1/ip/Uc_ROM/Uc_ROM_sim_netlist.vhdl"
+vhdl xil_defaultlib  "../../../phase2.srcs/sources_1/ip/Bo_ROM/Bo_ROM_sim_netlist.vhdl"
+vhdl xil_defaultlib  "../../../phase2.srcs/sources_1/ip/Bi_ROM/Bi_ROM_sim_netlist.vhdl"
+vhdl xil_defaultlib  "../../../phase2.srcs/sources_1/ip/Bf_ROM/Bf_ROM_sim_netlist.vhdl"
+vhdl xil_defaultlib  "../../../phase2.srcs/sources_1/ip/Bc_ROM/Bc_ROM_sim_netlist.vhdl"
+vhdl2008 xil_defaultlib  "../../../phase2.srcs/sources_1/new/multipier_module.vhd"
+vhdl2008 xil_defaultlib  "../../../phase2.srcs/sources_1/new/add_module.vhd"
+vhdl2008 xil_defaultlib  "../../../phase2.srcs/sources_1/new/tanh_module.vhd"
+vhdl2008 xil_defaultlib  "../../../phase2.srcs/sources_1/new/sigmoid_module.vhd"
+vhdl2008 xil_defaultlib  "../../../phase2.srcs/sources_1/new/matrix_multipler.vhd"
+vhdl2008 xil_defaultlib  "../../../phase2.srcs/sources_1/new/LSTM_cell.vhd"
+vhdl2008 xil_defaultlib  "../../../phase2.srcs/sim_1/new/LSTM_cell_tb.vhd"
+
+# Do not sort compile order
+nosort

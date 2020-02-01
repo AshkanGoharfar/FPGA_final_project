@@ -1,0 +1,24 @@
+0.6
+2016.4
+Dec 14 2016
+22:58:16
+D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sim_1/new/LSTM_cell_tb.vhd,1559201546,vhdl2008,,,,lstm_cell_tb,,,,,,,,
+D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/ip/Bc_ROM/Bc_ROM_sim_netlist.vhdl,1558698334,vhdl,,,,bc_rom;bc_rom_dist_mem_gen_v8_0_11;bc_rom_dist_mem_gen_v8_0_11_synth;bc_rom_rom,,,,,,,,
+D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/ip/Bf_ROM/Bf_ROM_sim_netlist.vhdl,1558698432,vhdl,,,,bf_rom;bf_rom_dist_mem_gen_v8_0_11;bf_rom_dist_mem_gen_v8_0_11_synth;bf_rom_rom,,,,,,,,
+D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/ip/Bi_ROM/Bi_ROM_sim_netlist.vhdl,1558698523,vhdl,,,,bi_rom;bi_rom_dist_mem_gen_v8_0_11;bi_rom_dist_mem_gen_v8_0_11_synth;bi_rom_rom,,,,,,,,
+D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/ip/Bo_ROM/Bo_ROM_sim_netlist.vhdl,1558698619,vhdl,,,,bo_rom;bo_rom_dist_mem_gen_v8_0_11;bo_rom_dist_mem_gen_v8_0_11_synth;bo_rom_rom,,,,,,,,
+D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/ip/Uc_ROM/Uc_ROM_sim_netlist.vhdl,1558697856,vhdl,,,,uc_rom;uc_rom_dist_mem_gen_v8_0_11;uc_rom_dist_mem_gen_v8_0_11_synth;uc_rom_rom,,,,,,,,
+D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/ip/Uf_ROM/Uf_ROM_sim_netlist.vhdl,1558697962,vhdl,,,,uf_rom;uf_rom_dist_mem_gen_v8_0_11;uf_rom_dist_mem_gen_v8_0_11_synth;uf_rom_rom,,,,,,,,
+D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/ip/Ui_ROM/Ui_ROM_sim_netlist.vhdl,1558698070,vhdl,,,,ui_rom;ui_rom_dist_mem_gen_v8_0_11;ui_rom_dist_mem_gen_v8_0_11_synth;ui_rom_rom,,,,,,,,
+D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/ip/Uo_ROM/Uo_ROM_sim_netlist.vhdl,1558698213,vhdl,,,,uo_rom;uo_rom_dist_mem_gen_v8_0_11;uo_rom_dist_mem_gen_v8_0_11_synth;uo_rom_rom,,,,,,,,
+D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/ip/Wc_ROM/Wc_ROM_sim_netlist.vhdl,1558697368,vhdl,,,,wc_rom;wc_rom_dist_mem_gen_v8_0_11;wc_rom_dist_mem_gen_v8_0_11_synth;wc_rom_rom,,,,,,,,
+D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/ip/Wf_ROM/Wf_ROM_sim_netlist.vhdl,1559051263,vhdl,,,,wf_rom;wf_rom_dist_mem_gen_v8_0_11;wf_rom_dist_mem_gen_v8_0_11_synth;wf_rom_rom,,,,,,,,
+D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/ip/Wi_ROM/Wi_ROM_sim_netlist.vhdl,1558697641,vhdl,,,,wi_rom;wi_rom_dist_mem_gen_v8_0_11;wi_rom_dist_mem_gen_v8_0_11_synth;wi_rom_rom,,,,,,,,
+D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/ip/Wo_ROM/Wo_ROM_sim_netlist.vhdl,1558697747,vhdl,,,,wo_rom;wo_rom_dist_mem_gen_v8_0_11;wo_rom_dist_mem_gen_v8_0_11_synth;wo_rom_rom,,,,,,,,
+D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/LSTM_cell.vhd,1559213035,vhdl2008,,,,lstm_cell,,,,,,,,
+D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/add_module.vhd,1559112729,vhdl2008,,,,add_module,,,,,,,,
+D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/matrix_multipler.vhd,1559134657,vhdl2008,,,,matrix_multipler,,,,,,,,
+D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/multipier_module.vhd,1559112729,vhdl2008,,,,multiplier_module,,,,,,,,
+D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/neurals_utils_pkg.vhd,1559214353,vhdl2008,D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sim_1/new/LSTM_cell_tb.vhd;D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/LSTM_cell.vhd;D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/add_module.vhd;D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/matrix_multipler.vhd;D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/multipier_module.vhd;D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/sigmoid_module.vhd;D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/tanh_module.vhd,,,neurals_utils,,,,,,,,
+D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/sigmoid_module.vhd,1559112729,vhdl2008,,,,sigmoid_module,,,,,,,,
+D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/tanh_module.vhd,1559112729,vhdl2008,,,,tanh_module,,,,,,,,

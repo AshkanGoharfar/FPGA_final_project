@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="LSTM_cell_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="LSTM_cell_tb" />
+            <top_module name="neurals_utils" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1130000000001fs"></ZoomEndTime>
+      <Cursor1Time time="156000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="233"></NameColumnWidth>
+      <ValueColumnWidth column_width="169"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/LSTM_cell_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LSTM_cell_tb/xt" type="array">
+      <obj_property name="ElementShortName">xt[0:3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">xt[0:3][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LSTM_cell_tb/ct_1" type="array">
+      <obj_property name="ElementShortName">ct_1[0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">ct_1[0:7][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LSTM_cell_tb/ht_1" type="array">
+      <obj_property name="ElementShortName">ht_1[0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">ht_1[0:7][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LSTM_cell_tb/ht" type="array">
+      <obj_property name="ElementShortName">ht[0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">ht[0:7][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LSTM_cell_tb/ct" type="array">
+      <obj_property name="ElementShortName">ct[0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">ct[0:7][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LSTM_cell_tb/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LSTM_cell_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LSTM_cell_tb/cell1/my_matrix_multipler1/a_ready" type="logic">
+      <obj_property name="ElementShortName">a_ready</obj_property>
+      <obj_property name="ObjectShortName">a_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LSTM_cell_tb/cell1/my_matrix_multipler1/b_ready" type="logic">
+      <obj_property name="ElementShortName">b_ready</obj_property>
+      <obj_property name="ObjectShortName">b_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LSTM_cell_tb/cell1/my_matrix_multipler1/firstmem" type="array">
+      <obj_property name="ElementShortName">firstmem[0:0,0:3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">firstmem[0:0,0:3][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LSTM_cell_tb/cell1/my_matrix_multipler1/secondmem" type="array">
+      <obj_property name="ElementShortName">secondmem[0:3,0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">secondmem[0:3,0:7][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/LSTM_cell_tb/cell1/my_matrix_multipler1/resultmem" type="array">
+      <obj_property name="ElementShortName">resultmem[0:0,0:7][31:0]</obj_property>
+      <obj_property name="ObjectShortName">resultmem[0:0,0:7][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/LSTM_cell_tb/cell1/my_matrix_multipler1/resultmem[0]" type="array">
+         <obj_property name="ElementShortName">[0,0:7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0,0:7][31:0]</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject fp_name="/LSTM_cell_tb/cell1/my_matrix_multipler1/resultmem[0,0]" type="array">
+            <obj_property name="ElementShortName">[0,0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0,0][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">23</obj_property>
+            <obj_property name="radix_otherWidth">0</obj_property>
+         </wvobject>
+         <wvobject fp_name="/LSTM_cell_tb/cell1/my_matrix_multipler1/resultmem[0,1]" type="array">
+            <obj_property name="ElementShortName">[0,1][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0,1][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">23</obj_property>
+            <obj_property name="radix_otherWidth">0</obj_property>
+         </wvobject>
+         <wvobject fp_name="/LSTM_cell_tb/cell1/my_matrix_multipler1/resultmem[0,2]" type="array">
+            <obj_property name="ElementShortName">[0,2][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0,2][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">23</obj_property>
+            <obj_property name="radix_otherWidth">0</obj_property>
+         </wvobject>
+         <wvobject fp_name="/LSTM_cell_tb/cell1/my_matrix_multipler1/resultmem[0,3]" type="array">
+            <obj_property name="ElementShortName">[0,3][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0,3][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">23</obj_property>
+            <obj_property name="radix_otherWidth">0</obj_property>
+         </wvobject>
+         <wvobject fp_name="/LSTM_cell_tb/cell1/my_matrix_multipler1/resultmem[0,4]" type="array">
+            <obj_property name="ElementShortName">[0,4][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0,4][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">23</obj_property>
+            <obj_property name="radix_otherWidth">0</obj_property>
+         </wvobject>
+         <wvobject fp_name="/LSTM_cell_tb/cell1/my_matrix_multipler1/resultmem[0,5]" type="array">
+            <obj_property name="ElementShortName">[0,5][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0,5][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">23</obj_property>
+            <obj_property name="radix_otherWidth">0</obj_property>
+         </wvobject>
+         <wvobject fp_name="/LSTM_cell_tb/cell1/my_matrix_multipler1/resultmem[0,6]" type="array">
+            <obj_property name="ElementShortName">[0,6][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0,6][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">23</obj_property>
+            <obj_property name="radix_otherWidth">0</obj_property>
+         </wvobject>
+         <wvobject fp_name="/LSTM_cell_tb/cell1/my_matrix_multipler1/resultmem[0,7]" type="array">
+            <obj_property name="ElementShortName">[0,7][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[0,7][31:0]</obj_property>
+            <obj_property name="Radix">REALRADIX</obj_property>
+            <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+            <obj_property name="radix_fractionWidth">23</obj_property>
+            <obj_property name="radix_otherWidth">0</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>

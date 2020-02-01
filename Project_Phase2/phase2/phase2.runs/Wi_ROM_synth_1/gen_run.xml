@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="Wi_ROM_synth_1" LaunchPart="xc7vx485tffg1157-1" LaunchTime="1558697592">
+  <File Type="RDS-PROPCONSTRS" Name="Wi_ROM_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="Wi_ROM.tcl"/>
+  <File Type="RDS-RDS" Name="Wi_ROM.vds"/>
+  <File Type="RDS-UTIL" Name="Wi_ROM_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Wi_ROM_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Wi_ROM.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Wi_ROM_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Wi_ROM_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Wi_ROM">
+    <File Path="$PSRCDIR/sources_1/ip/Wi_ROM/Wi_ROM.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="Wi_ROM"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Wi_ROM">
+    <File Path="$PSRCDIR/sources_1/ip/Wi_ROM/Wi_ROM.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="Wi_ROM"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

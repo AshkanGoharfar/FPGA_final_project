@@ -1,0 +1,69 @@
+
+*** Running vivado
+    with args -log LSTM_cell.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source LSTM_cell.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1733598 on Wed Dec 14 22:35:39 MST 2016
+  **** IP Build 1731160 on Wed Dec 14 23:47:21 MST 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source LSTM_cell.tcl -notrace
+Command: synth_design -top LSTM_cell -part xc7vx485tffg1157-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 7036 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 349.707 ; gain = 139.496
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'LSTM_cell' [D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/LSTM_cell.vhd:51]
+INFO: [Synth 8-3491] module 'Wc_ROM' declared at 'D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/synth_1/.Xil/Vivado-7468-goharfar-PC/realtime/Wc_ROM_stub.vhdl:5' bound to instance 'Wc_inst' of component 'Wc_ROM' [D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/LSTM_cell.vhd:361]
+INFO: [Synth 8-638] synthesizing module 'Wc_ROM' [D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/synth_1/.Xil/Vivado-7468-goharfar-PC/realtime/Wc_ROM_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'Wf_ROM' declared at 'D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/synth_1/.Xil/Vivado-7468-goharfar-PC/realtime/Wf_ROM_stub.vhdl:5' bound to instance 'Wf_inst' of component 'Wf_ROM' [D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/LSTM_cell.vhd:367]
+INFO: [Synth 8-638] synthesizing module 'Wf_ROM' [D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/synth_1/.Xil/Vivado-7468-goharfar-PC/realtime/Wf_ROM_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'Wi_ROM' declared at 'D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/synth_1/.Xil/Vivado-7468-goharfar-PC/realtime/Wi_ROM_stub.vhdl:5' bound to instance 'Wi_inst' of component 'Wi_ROM' [D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/LSTM_cell.vhd:373]
+INFO: [Synth 8-638] synthesizing module 'Wi_ROM' [D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/synth_1/.Xil/Vivado-7468-goharfar-PC/realtime/Wi_ROM_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'Wo_ROM' declared at 'D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/synth_1/.Xil/Vivado-7468-goharfar-PC/realtime/Wo_ROM_stub.vhdl:5' bound to instance 'Wo_inst' of component 'Wo_ROM' [D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/LSTM_cell.vhd:379]
+INFO: [Synth 8-638] synthesizing module 'Wo_ROM' [D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/synth_1/.Xil/Vivado-7468-goharfar-PC/realtime/Wo_ROM_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'Bc_ROM' declared at 'D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/synth_1/.Xil/Vivado-7468-goharfar-PC/realtime/Bc_ROM_stub.vhdl:5' bound to instance 'Bc_inst' of component 'Bc_ROM' [D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/LSTM_cell.vhd:386]
+INFO: [Synth 8-638] synthesizing module 'Bc_ROM' [D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/synth_1/.Xil/Vivado-7468-goharfar-PC/realtime/Bc_ROM_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'Bf_ROM' declared at 'D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/synth_1/.Xil/Vivado-7468-goharfar-PC/realtime/Bf_ROM_stub.vhdl:5' bound to instance 'Bf_inst' of component 'Bf_ROM' [D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/LSTM_cell.vhd:392]
+INFO: [Synth 8-638] synthesizing module 'Bf_ROM' [D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/synth_1/.Xil/Vivado-7468-goharfar-PC/realtime/Bf_ROM_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'Bi_ROM' declared at 'D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/synth_1/.Xil/Vivado-7468-goharfar-PC/realtime/Bi_ROM_stub.vhdl:5' bound to instance 'Bi_inst' of component 'Bi_ROM' [D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/LSTM_cell.vhd:398]
+INFO: [Synth 8-638] synthesizing module 'Bi_ROM' [D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/synth_1/.Xil/Vivado-7468-goharfar-PC/realtime/Bi_ROM_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'Bo_ROM' declared at 'D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/synth_1/.Xil/Vivado-7468-goharfar-PC/realtime/Bo_ROM_stub.vhdl:5' bound to instance 'Bo_inst' of component 'Bo_ROM' [D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/LSTM_cell.vhd:404]
+INFO: [Synth 8-638] synthesizing module 'Bo_ROM' [D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/synth_1/.Xil/Vivado-7468-goharfar-PC/realtime/Bo_ROM_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'Uc_ROM' declared at 'D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/synth_1/.Xil/Vivado-7468-goharfar-PC/realtime/Uc_ROM_stub.vhdl:5' bound to instance 'Uc_inst' of component 'Uc_ROM' [D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/LSTM_cell.vhd:411]
+INFO: [Synth 8-638] synthesizing module 'Uc_ROM' [D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/synth_1/.Xil/Vivado-7468-goharfar-PC/realtime/Uc_ROM_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'Uf_ROM' declared at 'D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/synth_1/.Xil/Vivado-7468-goharfar-PC/realtime/Uf_ROM_stub.vhdl:5' bound to instance 'Uf_inst' of component 'Uf_ROM' [D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/LSTM_cell.vhd:418]
+INFO: [Synth 8-638] synthesizing module 'Uf_ROM' [D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/synth_1/.Xil/Vivado-7468-goharfar-PC/realtime/Uf_ROM_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'Ui_ROM' declared at 'D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/synth_1/.Xil/Vivado-7468-goharfar-PC/realtime/Ui_ROM_stub.vhdl:5' bound to instance 'Ui_inst' of component 'Ui_ROM' [D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/LSTM_cell.vhd:424]
+INFO: [Synth 8-638] synthesizing module 'Ui_ROM' [D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/synth_1/.Xil/Vivado-7468-goharfar-PC/realtime/Ui_ROM_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'Uo_ROM' declared at 'D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/synth_1/.Xil/Vivado-7468-goharfar-PC/realtime/Uo_ROM_stub.vhdl:5' bound to instance 'Uo_inst' of component 'Uo_ROM' [D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/LSTM_cell.vhd:430]
+INFO: [Synth 8-638] synthesizing module 'Uo_ROM' [D:/Ashkan works/VHDL_project_2/phase2/phase2.runs/synth_1/.Xil/Vivado-7468-goharfar-PC/realtime/Uo_ROM_stub.vhdl:14]
+	Parameter input_a_rows bound to: 1 - type: integer 
+	Parameter input_a_cols bound to: 4 - type: integer 
+	Parameter input_b_rows bound to: 4 - type: integer 
+	Parameter input_b_cols bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'matrix_multipler' declared at 'D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/matrix_multipler.vhd:9' bound to instance 'XWF_multipler1' of component 'matrix_multipler' [D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/LSTM_cell.vhd:444]
+INFO: [Synth 8-638] synthesizing module 'matrix_multipler' [D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/matrix_multipler.vhd:26]
+	Parameter input_a_rows bound to: 1 - type: integer 
+	Parameter input_a_cols bound to: 4 - type: integer 
+	Parameter input_b_rows bound to: 4 - type: integer 
+	Parameter input_b_cols bound to: 8 - type: integer 
+ERROR: [Synth 8-502] non-constant real-valued expression is not supported [D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/neurals_utils_pkg.vhd:36]
+WARNING: [Synth 8-614] signal 'firstmem' is read in the process but is not in the sensitivity list [D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/matrix_multipler.vhd:84]
+WARNING: [Synth 8-614] signal 'secondmem' is read in the process but is not in the sensitivity list [D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/matrix_multipler.vhd:84]
+ERROR: [Synth 8-285] failed synthesizing module 'matrix_multipler' [D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/matrix_multipler.vhd:26]
+ERROR: [Synth 8-285] failed synthesizing module 'LSTM_cell' [D:/Ashkan works/VHDL_project_2/phase2/phase2.srcs/sources_1/new/LSTM_cell.vhd:51]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 379.230 ; gain = 169.020
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+36 Infos, 2 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Thu May 30 15:18:31 2019...

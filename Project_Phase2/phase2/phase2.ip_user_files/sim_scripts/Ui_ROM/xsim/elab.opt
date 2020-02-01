@@ -1,0 +1,1 @@
+--relax --debug typical --mt auto -L xil_defaultlib -L secureip -L xpm --snapshot Ui_ROM xil_defaultlib.Ui_ROM -log elaborate.log
